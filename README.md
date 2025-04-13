@@ -11,3 +11,4 @@
 【数学基础】
 1. 机器学习的数学 雷明 (https://book.douban.com/subject/35317174/)
 2. 线性代数及其应用 (https://book.douban.com/subject/30310517/)
+3. 矩阵分析与应用 张贤达
