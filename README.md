@@ -1,6 +1,8 @@
 # learn-llm
 
 【大模型】
+【基础介绍】
+1.大语言模型:原理与应用 https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf
 【AI应用】
 1.【视频风格迁移】
 
