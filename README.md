@@ -1,8 +1,14 @@
 # learn-llm
 
 【大模型】
+
+【自己训练大模型】
+1. Build a Large Language Model (From Scratch) 官方code https://github.com/rasbt/LLMs-from-scratch/tree/main
+2. 上述中文版书籍 https://github.com/skindhu/Build-A-Large-Language-Model-CN
+
 【基础介绍】
 1.大语言模型:原理与应用 https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf
+
 【AI应用】
 1.【视频风格迁移】
 
