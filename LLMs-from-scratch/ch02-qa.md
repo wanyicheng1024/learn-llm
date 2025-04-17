@@ -1,6 +1,6 @@
 第二章遗留的问题点
 
-BPE tiktoken 分词器 实现原理
+BPE tiktoken 分词器 实现原理  有个简单实现 https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb
 
 pytorch 的 dataset dataloader 2个模块大概用法
 
