@@ -11,10 +11,35 @@ def get_data():
     (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, flatten=True, one_hot_label=False)
     return x_test, t_test
 
+def cal_params_count(params):
+    all_count = 0
+    for i in range(len(params)):
+        if (len(params[i]) == 1):
+            all_count += params[i][0]
+            continue
+        row = params[i][0]
+        col = params[i][1]
+        all_count += row*col
+    
+    print("总参数量为：", all_count)
 
 def init_network():
     with open("sample_weight.pkl", 'rb') as f:
         network = pickle.load(f)
+
+        w1, w2, w3 = network['W1'], network['W2'], network['W3']
+        b1, b2, b3 = network['b1'], network['b2'], network['b3']
+
+        print(w1.shape, w2.shape, w3.shape,)
+        print(b1.shape, b2.shape, b3.shape,)
+
+        all_params = w1.shape[0]*w1.shape[1] + w2.shape[0]*w2.shape[1] + w3.shape[0]*w3.shape[1] + b1.shape[0] + b2.shape[0] + b3.shape[0]
+
+        print('最简单的2层神经网络的参数总量: ', all_params)
+        # output: (784, 50) (50, 100) (100, 10)
+        # (50,) (100,) (10,)
+        # 最简单的2层神经网络的参数总量:  45360
+        cal_params_count([(784, 50), (50,), (50, 100),(100,), (100, 10), (10,)])
     return network
 
 
@@ -45,3 +70,4 @@ for i in range(0, len(x), batch_size):
     accuracy_cnt += np.sum(p == t[i:i+batch_size])
 
 print("Accuracy:" + str(float(accuracy_cnt) / len(x)))
+# output: Accuracy:0.9352

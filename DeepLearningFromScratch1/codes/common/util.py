@@ -1,6 +1,17 @@
 # coding: utf-8
 import numpy as np
 
+def cal_params_count(params):
+    all_count = 0
+    for i in range(len(params)):
+        if (len(params[i]) == 1):
+            all_count += params[i][0]
+            continue
+        row = params[i][0]
+        col = params[i][1]
+        all_count += row*col
+    
+    print("总参数量为：", all_count)
 
 def smooth_curve(x):
     """用于使损失函数的图形变圆滑

@@ -1,5 +1,21 @@
 # learn-llm
 
+【入门】
+
+1. 手写一个简单的神经网络(130K参数规模)
+
+代码参考：
+1. 本仓库目录 DeepLearningFromScratch1/codes下面有完整随书代码
+2. 上述书中简要核心代码：demos/DLFS1/simple_neuralne_130K
+
+参考资料：
+1. 【深度学习入门：基于python的理由与实现】
+2. 
+
+
+可学习知识点：
+手写：Affine全连接层(线性变化层、非线性激活函数)、输出层(softmax、softmax-with-loss)、损失函数(均方误差、交叉熵损失)、mini-batch训练方式、数值微分、梯度概念、前向计算梯度、计算图、手动执行梯度反向传播、SGD随机梯度下降(附带Adam、momenttum等)、batch normalization、正则化(dropout、权值衰减等)
+
 【大模型】
 
 【自己训练大模型】
