@@ -10,7 +10,7 @@
 
 参考资料：
 1. 【深度学习入门：基于python的理由与实现】
-2. 
+2. softmax-with-loss层的梯度反向传播数据推导 https://zhuanlan.zhihu.com/p/86184547  当然书中附录A也给出了计算图的推导过程
 
 
 可学习知识点：
