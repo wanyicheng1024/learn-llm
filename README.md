@@ -1,8 +1,16 @@
 # learn-llm
 
-【入门】
+## 入门
 
-1. 手写一个简单的神经网络(130K参数规模)
+### 2. 手写一个最简单的CNN卷积神经网络
+
+代码参考：
+1. 本仓库目录 DeepLearningFromScratch1/codes/ch7 下面有完整随书代码
+
+可学习知识点：
+手写：CNN的卷积和池化层的前向和后向传播实现，col2im、im2col实现(难点)
+
+### 1. 手写一个简单的神经网络(130K参数规模)
 
 代码参考：
 1. 本仓库目录 DeepLearningFromScratch1/codes下面有完整随书代码
