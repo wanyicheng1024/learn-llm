@@ -60,7 +60,7 @@ transform，gpt2架构、文字生成模型、指令微调、分类任务微调�
 ### 1. 手写一个简单的神经网络(130K参数规模)
 
 代码参考：
-1. 本仓库目录 DeepLearningFromScratch1/codes下面有完整随书代码
+1. 本仓库目录 DLFS1/codes下面有完整随书代码
 2. 上述书中简要核心代码：demos/DLFS1/simple_neuralne_130K
 
 参考资料：
