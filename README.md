@@ -2,6 +2,10 @@
 
 ## 入门
 
+### 7. 学习如何从零开始预训练、微调一个模型
+
+https://github.com/jingyaogong/minimind
+
 ### 6. 手写GPT2
 
 1. 《Build a Large Language Model (From Scratch)》
